@@ -8,6 +8,9 @@ It is purely written in Typescript, unfortunately the State Management is not co
 
 But you can check out the code at `example/index.ts`and `index.html`
 
+### Blog Post
+
+[https://dev.to/theartechnology/why-not-try-declarative-coding-for-the-web-4dck](https://dev.to/theartechnology/why-not-try-declarative-coding-for-the-web-4dck)
 
 ### How to run.
 
@@ -19,8 +22,8 @@ But you can check out the code at `example/index.ts`and `index.html`
 
 ### What I mean by declarative ?
 
-For those who doesn't want to bother with css and class. You can expressively write components
-rapidly and autocompletion of typescript will help you a lot.
+For those who don't want to bother with css and html. You can expressively write components
+rapidly and autocompletion of your IDE will help you a lot.
 
 Writing declaratively:
 
