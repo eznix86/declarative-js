@@ -52,6 +52,18 @@ In declarative everything is a sort of `function` you can call.
 `Scroll({ children: [] })`, `Stack({ children: [] })`, `Button()` and so on...
 
 
+How can we style a component ?
 
+```js
+// Inside a component you will have all that you need, and it is self documented
+// Your IDE will help you :)
+TextSpan({
+    text: "Hello",
+    style: {
+        fontWeight: FontWeight.Regular
+    },
+}),
 
+```
 
+Perhaps my approach is wrong, so, if it is, open an issue and let's sort things out.
