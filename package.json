@@ -1,0 +1,27 @@
+{
+    "name": "declarative-js",
+    "version": "0.1.0",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/declarative-js.umd.js",
+    "module": "./dist/declarative-js.es.js",
+    "exports": {
+        ".": {
+            "import": "./dist/declarative-js.es.js",
+            "require": "./dist/declarative-js.umd.js"
+        }
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "typescript": "^4.5.4",
+        "vite": "^2.8.0"
+    },
+    "dependencies": {
+        "s-js": "^0.4.9"
+    }
+}
