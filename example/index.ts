@@ -23,7 +23,7 @@ let scaffold = new Scaffold({
                         fontWeight: FontWeight.Bold,
                     }
                 }),
-               new Rebuild({
+                new Rebuild({
                     state: S,
                     child: new TextSpan({
                         text: `${counter()}`,
@@ -54,11 +54,8 @@ let scaffold = new Scaffold({
 });
 
 
-S(() => console.log(counter()))
-
+// S(() => console.log(counter()))
 
 let element = document.getElementById("app");
 
-new App(scaffold, element);
-
-// setInterval(() =>  counter(counter() + 1), 1000)
+let app = new App(scaffold, element);
